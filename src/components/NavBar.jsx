@@ -14,12 +14,19 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 function NavBar() {
+  const recipientEmail = "yukeshdhakal42@gmail.com";
+
+  const handleEmailButtonClick = () => {
+    const emailUrl = `mailto:${recipientEmail}`;
+    window.open(emailUrl, "_blank");
+  };
+
   return (
     <div className="navbar">
       <div className="navbar-section1">
         <div className="circles">
-            <div className="circle"></div>
-            <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
         </div>
         <div className="nav-box">
           <div className="nav-box_element">
@@ -33,7 +40,7 @@ function NavBar() {
               </a>
             </li>
             <li>
-              <a href="#home">
+              <a href="#home" onClick={handleEmailButtonClick}>
                 <FontAwesomeIcon icon={faEnvelope} /> Email
               </a>
             </li>
@@ -72,7 +79,64 @@ function NavBar() {
             My Resume <FontAwesomeIcon icon={faUser} />
           </a>
         </div>
-        <div className="nav-box2">test</div>
+        <div className="nav-box2">
+          <div className="banner">
+            <div className="banner-section1">
+              <div className="img-container"></div>
+              <div className="banner-section1_element">
+                <h2>Yukesh Raj Dhakal</h2>
+                <p>@_trxster_</p>
+              </div>
+            </div>
+            <div className="banner-section2">
+              <a href="#">Kathmandu, Nepal 📍</a>
+            </div>
+          </div>
+          <div className="project">
+            <h2>My Projects</h2>
+            <div className="project-section1">
+                <div className="box-container">
+                    <div href="#" className="box-container_img">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/DhakalYukesh/hpi-hotelmanagement"><img src="/images/project1.png" alt="project img" /></a>
+                    </div>
+                    <div className="box-container_details">
+                        <h3>HPI - Hotel Management System</h3>
+                        <p>Tech used: Laravel, PHP, HTML, CSS, JS, MySQL, PayPal API </p>
+                    </div>
+                </div>
+                <div className="box-container">
+                    <div href="#" className="box-container_img">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/DhakalYukesh/hpi-hotelmanagement"><img src="/images/project2.png" alt="project img" /></a>
+                    </div>
+                    <div className="box-container_details">
+                        <h3>StarBucks UI Clone</h3>
+                        <p>Tech used: HTML, Vanilla CSS</p>
+                    </div>
+                </div>
+                <div className="box-container">
+                    <div href="#" className="box-container_img">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/DhakalYukesh/hpi-hotelmanagement"><img src="/images/project1.png" alt="project img" /></a>
+                    </div>
+                    <div className="box-container_details">
+                        <h3>HPI - Hotel Management System</h3>
+                        <p>Tech used: Laravel, PHP, HTML, CSS, JS, MySQL, PayPal API, </p>
+                    </div>
+                </div>
+                <div className="box-container">
+                    <div href="#" className="box-container_img">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/DhakalYukesh/hpi-hotelmanagement"><img src="/images/project1.png" alt="project img" /></a>
+                    </div>
+                    <div className="box-container_details">
+                        <h3>HPI - Hotel Management System</h3>
+                        <p>Tech used: Laravel, PHP, HTML, CSS, JS, MySQL, PayPal API, </p>
+                    </div>
+                </div>
+            </div>
+            <div className="project-section2">
+                test
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
