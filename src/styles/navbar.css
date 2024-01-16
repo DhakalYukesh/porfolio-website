@@ -1,0 +1,92 @@
+.navbar {
+    background-color: yellow;
+    display: flex;
+    height: 100vh;
+}
+
+/* Section 1 */
+
+.navbar .navbar-section1 {
+    background-color: var(--bg-color);
+    position: fixed;
+    height: 100vh;
+    padding: 1.5rem 1.5rem;
+}
+
+.navbar .navbar-section1 .nav-box {
+    background-color: var(--bg-color2);
+    width: 260px;
+    height: calc(110% - 3rem);
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar .navbar-section1 .nav-box .nav-box_element {
+    display: flex;
+    flex-direction: column;
+    padding: 1.8rem;
+    gap: 2.6rem;
+}
+
+.nav-box .nav-box_element h3 {
+    font-size: var(--font-size);
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.nav-box .nav-box_element li {
+    padding-left: 1rem;
+    transition: all .2s ease-in;
+}
+
+.nav-box .nav-box_element li:hover {
+    transform: translateY(-0.2rem);
+}
+
+.nav-box .nav-box_element li:hover a {
+    color: var(--text-color2);
+}
+
+.nav-box .nav-box_element a {
+    color: var(--text-color);
+    font-size: var(--font-size2);
+    padding-left: 2px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    transition: all .2s ease-in;
+}
+
+
+/* Section 2 */
+
+.navbar .navbar-section2 {
+    background-color: aliceblue;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-section2 .nav-box1 {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.3rem 3rem;
+}
+
+.navbar-section2 .nav-box1 a {
+    color: var(--text-color2);
+    font-size: var(--font-size3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.navbar-section2 .nav-box2 {
+    background-color: bisque;
+    height: 100vh;
+    padding-left: 5.5rem;
+}

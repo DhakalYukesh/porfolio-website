@@ -1,9 +1,12 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <>
-      <p>Test</p>
+      <div className="main-box">
+        <NavBar />
+      </div>
     </>
   );
 }
