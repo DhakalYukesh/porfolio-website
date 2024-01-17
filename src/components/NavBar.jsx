@@ -4,7 +4,6 @@ import {
   faHouse,
   faEnvelope,
   faPaperclip,
-  faArrowRight,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -13,6 +12,7 @@ import {
   faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 import Main from "./Main";
+import Tech from "./Tech";
 
 function NavBar() {
   const recipientEmail = "yukeshdhakal42@gmail.com";
@@ -33,7 +33,7 @@ function NavBar() {
           <div className="nav-box_element">
             <h3>
               Navigate{" "}
-              <FontAwesomeIcon icon={faArrowRight} style={{ fontSize: 12 }} />
+              »
             </h3>
             <li>
               <a href="#home">
@@ -54,7 +54,7 @@ function NavBar() {
           <div className="nav-box_element">
             <h3>
               Socials{" "}
-              <FontAwesomeIcon icon={faArrowRight} style={{ fontSize: 12 }} />
+              »
             </h3>
             <li>
               <a href="#home">
@@ -94,6 +94,7 @@ function NavBar() {
             </div>
           </div>
           <Main />
+          <Tech />
         </div>
       </div>
     </div>

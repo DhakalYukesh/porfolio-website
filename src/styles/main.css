@@ -98,14 +98,12 @@
 .skills-container_wrapper {
     background-color: var(--bg-color2);
     padding: 1rem 1rem;
-    width: 233px;
-    min-height: 180px;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     border-radius: 5px;
-    display: block;
-    max-width: 100%;
 }
 
 .skills-container_wrapper h3 {
@@ -129,7 +127,7 @@
 }
 
 .project-section2 .box-container2 {
-    width: 100%;
+    width: 410px;
     background-color: var(--bg-color2);
     border-radius: 5px;
     display: flex;
@@ -159,11 +157,18 @@
     position: relative;
 }
 
-.moreproject_items a::after {
-    content: '»';
-    position: absolute;
-    right: 5rem;
+.moreproject_items a,
+.moreproject_items .item_details h3,
+.moreproject_items .item_details p
+{
+    transition: all .2s ease-in;
+}
 
+.moreproject_items:hover a,
+.moreproject_items:hover .item_details h3,
+.moreproject_items:hover .item_details p
+{
+    color: var(--text-color2);
 }
 
 .moreproject_items a .item_details h3 {

@@ -115,7 +115,7 @@ function Main() {
           </div>
         </div>
         <div className="box-container2">
-          <h2>More Projects</h2>
+          <h2>More Projects »</h2>
           <div className="moreproject">
             <div className="moreproject_items">
               <a href="">
