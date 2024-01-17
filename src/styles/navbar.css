@@ -63,10 +63,10 @@
 /* Section 2 */
 
 .navbar .navbar-section2 {
-    background-color: aliceblue;
     width: 100vw;
     display: flex;
     flex-direction: column;
+    height: 1000px;
 }
 
 .navbar-section2 .nav-box1 {
@@ -141,76 +141,4 @@
 .banner .banner-section2 a {
     color: var(--text-color);
     font-size: var(--font-size3);
-}
-
-/* Project section */
-.project {
-    background-color: var(--bg-color);
-    padding: 1.2rem 3rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.project h2 {
-    font-size: 1.2rem;
-    color: var(--text-color2);
-    font-weight: 400;
-}
-
-.project-section1 {
-    /* background-color: skyblue; */
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-}
-
-.project-section1 .box-container {
-    background-color: black;
-    width: 100%;
-    border-radius: 5px;
-}
-
-
-.box-container .box-container_img {
-    height: 180px;
-    opacity: 0.6;
-    cursor: pointer;
-    overflow: hidden;
-    transition: all 2s ease-in;
-}
-
-.box-container .box-container_img:hover {
-    opacity: 1;
-}
-
-
-.box-container .box-container_img img {
-    max-width: 100%;
-}
-
-.box-container .box-container_details {
-    padding: 1rem 1rem;
-    height: 100px;
-    line-height: 1.2rem;
-    background-color: var(--text-color2);
-}
-
-.box-container .box-container_details h3 {
-    font-size: var(--font-size2);
-}
-
-.box-container .box-container_details p {
-    font-size: var(--font-size3);
-    color: var(--text-color);
-    font-weight: 400;
-    width: 280px;
-}
-
-
-
-
-
-.project-section2 {
-    background-color: lightcoral;
 }

@@ -12,6 +12,7 @@ import {
   faGithub,
   faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
+import Main from "./Main";
 
 function NavBar() {
   const recipientEmail = "yukeshdhakal42@gmail.com";
@@ -92,50 +93,7 @@ function NavBar() {
               <a href="#">Kathmandu, Nepal 📍</a>
             </div>
           </div>
-          <div className="project">
-            <h2>My Projects</h2>
-            <div className="project-section1">
-                <div className="box-container">
-                    <div href="#" className="box-container_img">
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/DhakalYukesh/hpi-hotelmanagement"><img src="/images/project1.png" alt="project img" /></a>
-                    </div>
-                    <div className="box-container_details">
-                        <h3>HPI - Hotel Management System</h3>
-                        <p>Tech used: Laravel, PHP, HTML, CSS, JS, MySQL, PayPal API </p>
-                    </div>
-                </div>
-                <div className="box-container">
-                    <div href="#" className="box-container_img">
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/DhakalYukesh/hpi-hotelmanagement"><img src="/images/project2.png" alt="project img" /></a>
-                    </div>
-                    <div className="box-container_details">
-                        <h3>StarBucks UI Clone</h3>
-                        <p>Tech used: HTML, Vanilla CSS</p>
-                    </div>
-                </div>
-                <div className="box-container">
-                    <div href="#" className="box-container_img">
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/DhakalYukesh/hpi-hotelmanagement"><img src="/images/project1.png" alt="project img" /></a>
-                    </div>
-                    <div className="box-container_details">
-                        <h3>HPI - Hotel Management System</h3>
-                        <p>Tech used: Laravel, PHP, HTML, CSS, JS, MySQL, PayPal API, </p>
-                    </div>
-                </div>
-                <div className="box-container">
-                    <div href="#" className="box-container_img">
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/DhakalYukesh/hpi-hotelmanagement"><img src="/images/project1.png" alt="project img" /></a>
-                    </div>
-                    <div className="box-container_details">
-                        <h3>HPI - Hotel Management System</h3>
-                        <p>Tech used: Laravel, PHP, HTML, CSS, JS, MySQL, PayPal API, </p>
-                    </div>
-                </div>
-            </div>
-            <div className="project-section2">
-                test
-            </div>
-          </div>
+          <Main />
         </div>
       </div>
     </div>
