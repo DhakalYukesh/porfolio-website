@@ -35,7 +35,7 @@ const SubFooter = () => {
       </div>
       <div className="footer">
         <div className="footer-container flex">
-            <h2>Copyright © 2023. All rights are reserved</h2>
+            <h2>Copyright © 2024. All rights are reserved</h2>
         </div>
     </div>
     </div>

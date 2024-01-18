@@ -1,5 +1,4 @@
 .navbar {
-    background-color: yellow;
     display: flex;
     height: 100vh;
 }
@@ -9,7 +8,7 @@
 .navbar .navbar-section1 {
     background-color: var(--bg-color);
     position: fixed;
-    height: 100vh;
+    height: 100%;
     padding: 1.5rem 1.5rem;
 }
 
@@ -21,6 +20,7 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .navbar .navbar-section1 .nav-box .nav-box_element {
@@ -86,8 +86,7 @@
 }
 
 .navbar-section2 .nav-box2 {
-    background-color: bisque;
-    height: 100vh;
+    height: auto;
     padding-left: 19rem;
 }
 
@@ -118,6 +117,8 @@
     overflow: hidden;
     background-image: url(/images/pfpimg.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-size: 100%;
     image-rendering: -webkit-optimize-contrast;
 }

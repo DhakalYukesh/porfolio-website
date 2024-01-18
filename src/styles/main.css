@@ -126,6 +126,10 @@
     border: 1px solid var(--bg-color);
 }
 
+.project-section2 {
+    display: flex;
+}
+
 .project-section2 .box-container2 {
     width: 410px;
     background-color: var(--bg-color2);
