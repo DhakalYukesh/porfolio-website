@@ -82,7 +82,6 @@ function Main() {
                 <li>CSS</li>
                 <li>Tailwind</li>
                 <li id="blue">React Js</li>
-                <li>Bootstrap</li>
               </ul>
             </div>
             <div className="skills-container_wrapper">

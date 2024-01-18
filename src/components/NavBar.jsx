@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Main from "./Main";
 import Tech from "./Tech";
+import SubFooter from "./SubFooter";
 
 function NavBar() {
   const recipientEmail = "yukeshdhakal42@gmail.com";
@@ -31,10 +32,7 @@ function NavBar() {
         </div>
         <div className="nav-box">
           <div className="nav-box_element">
-            <h3>
-              Navigate{" "}
-              »
-            </h3>
+            <h3>Navigate »</h3>
             <li>
               <a href="#home">
                 <FontAwesomeIcon icon={faHouse} /> Home
@@ -46,28 +44,37 @@ function NavBar() {
               </a>
             </li>
             <li>
-              <a href="#home">
+              <a target="_blank" rel="noopener noreferrer" href="/resume.pdf">
                 <FontAwesomeIcon icon={faPaperclip} /> Resume
               </a>
             </li>
           </div>
           <div className="nav-box_element">
-            <h3>
-              Socials{" "}
-              »
-            </h3>
+            <h3>Socials »</h3>
             <li>
-              <a href="#home">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/yukeshdhakal/"
+              >
                 <FontAwesomeIcon icon={faLinkedinIn} /> LinkedIn
               </a>
             </li>
             <li>
-              <a href="#home">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/DhakalYukesh"
+              >
                 <FontAwesomeIcon icon={faGithub} /> GitHub
               </a>
             </li>
             <li>
-              <a href="#home">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://discord.com/users/327800426529423361"
+              >
                 <FontAwesomeIcon icon={faDiscord} /> Discord
               </a>
             </li>
@@ -76,7 +83,12 @@ function NavBar() {
       </div>
       <div className="navbar-section2">
         <div className="nav-box1">
-          <a className="primary-btn" href="">
+          <a
+            className="primary-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="/resume.pdf"
+          >
             My Resume <FontAwesomeIcon icon={faUser} />
           </a>
         </div>
@@ -95,6 +107,7 @@ function NavBar() {
           </div>
           <Main />
           <Tech />
+          <SubFooter />
         </div>
       </div>
     </div>

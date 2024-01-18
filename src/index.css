@@ -3,6 +3,7 @@
 :root {
   --bg-color: #15131B;
   --bg-color2:#1C1A22;
+  --bg-color3:#221f29;
   --primary-color: #ef4444;
   --hover-color: #dc2626;
   --font-size: 1rem;
@@ -17,6 +18,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
 }
 
 li {
@@ -71,4 +76,8 @@ a {
 
 #green {
   border: 1px solid #16a34a;
+}
+
+.flex {
+  display: flex;
 }
