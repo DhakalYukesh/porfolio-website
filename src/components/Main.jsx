@@ -1,8 +1,7 @@
 import "../styles/main.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCookieBite
-} from "@fortawesome/free-solid-svg-icons";
+import { faCookieBite } from "@fortawesome/free-solid-svg-icons";
+import { faJs, faReact, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Main() {
   return (
@@ -29,14 +28,17 @@ function Main() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/DhakalYukesh/hpi-hotelmanagement"
+              href="https://github.com/DhakalYukesh/Ecommerce-Website"
             >
               <img src="/images/project2.png" alt="project img" />
             </a>
           </div>
           <div className="box-container_details">
-            <h3>StarBucks UI Clone</h3>
-            <p>Tech used: HTML, Vanilla CSS, Javascript, Responsive Design</p>
+            <h3>Feast Food - Ecommerce Website </h3>
+            <p>
+              Tech used: HTML, CSS, Javascript, React Js, Node Js, Express Js,
+              MongoDB
+            </p>
           </div>
         </div>
         <div className="box-container">
@@ -44,14 +46,14 @@ function Main() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/DhakalYukesh/hpi-hotelmanagement"
+              href="https://github.com/DhakalYukesh"
             >
-              <img src="/images/project1.png" alt="project img" />
+              <img src="/images/project3.png" alt="project img" />
             </a>
           </div>
           <div className="box-container_details">
-            <h3>HPI - Hotel Management System</h3>
-            <p>Tech used: Laravel, PHP, HTML, CSS, JS, MySQL, PayPal API, </p>
+            <h3>UI Designing Projects</h3>
+            <p>Tech used: HTML, Vanilla CSS, Tailwind, Responsive Designs</p>
           </div>
         </div>
         <div className="box-container">
@@ -59,14 +61,16 @@ function Main() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/DhakalYukesh/hpi-hotelmanagement"
+              href="https://github.com/DhakalYukesh"
             >
-              <img src="/images/project1.png" alt="project img" />
+              <img src="/images/project4.png" alt="project img" />
             </a>
           </div>
           <div className="box-container_details">
-            <h3>HPI - Hotel Management System</h3>
-            <p>Tech used: Laravel, PHP, HTML, CSS, JS, MySQL, PayPal API, </p>
+            <h3>Pika Bakes | Ongoing Private Project</h3>
+            <p>
+              Tech used: HTML, CSS, JS, React Js, Express Js, Node Js, MongoDB{" "}
+            </p>
           </div>
         </div>
       </div>
@@ -117,11 +121,40 @@ function Main() {
           <h2>More Projects »</h2>
           <div className="moreproject">
             <div className="moreproject_items">
-              <a href="">
-                <FontAwesomeIcon icon={faCookieBite} />
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/DhakalYukesh/Vanilla-Javascript-Projects"
+              >
+                <FontAwesomeIcon icon={faJs} />
                 <div className="item_details">
-                  <h3>Project Name</h3>
-                  <p>HTML, CSS, PhP, JS</p>
+                  <h3>Vanilla Javascript Projects</h3>
+                  <p>A javascript practice projects to manipulate DOM.</p>
+                </div>
+              </a>
+            </div>
+            <div className="moreproject_items">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/DhakalYukesh/react_projects"
+              >
+                <FontAwesomeIcon icon={faReact} />
+                <div className="item_details">
+                  <h3>React Js Projects</h3>
+                  <p>
+                    A reactjs practice projects to better understand its
+                    features.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className="moreproject_items">
+              <a href="">
+                <FontAwesomeIcon icon={faLinkedin} />
+                <div className="item_details">
+                  <h3>Upcoming - LinkedIn Clone</h3>
+                  <p>An upcoming linkedIn clone project.</p>
                 </div>
               </a>
             </div>
@@ -129,26 +162,11 @@ function Main() {
               <a href="">
                 <FontAwesomeIcon icon={faCookieBite} />
                 <div className="item_details">
-                  <h3>Project Name</h3>
-                  <p>HTML, CSS, PhP, JS</p>
-                </div>
-              </a>
-            </div>
-            <div className="moreproject_items">
-              <a href="">
-                <FontAwesomeIcon icon={faCookieBite} />
-                <div className="item_details">
-                  <h3>Project Name</h3>
-                  <p>HTML, CSS, PhP, JS</p>
-                </div>
-              </a>
-            </div>
-            <div className="moreproject_items">
-              <a href="">
-                <FontAwesomeIcon icon={faCookieBite} />
-                <div className="item_details">
-                  <h3>Project Name</h3>
-                  <p>HTML, CSS, PhP, JS</p>
+                  <h3>Future Projects</h3>
+                  <p>
+                    More projects will be added in the future. Have a cookie for
+                    now :D
+                  </p>
                 </div>
               </a>
             </div>
