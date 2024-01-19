@@ -5,6 +5,8 @@ import {
   faEnvelope,
   faPaperclip,
   faUser,
+  faBars,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedinIn,
@@ -14,8 +16,10 @@ import {
 import Main from "./Main";
 import Tech from "./Tech";
 import SubFooter from "./SubFooter";
+import { useState } from "react";
 
 function NavBar() {
+  const [isOpen, setIsOpen] = useState(false);
   const recipientEmail = "yukeshdhakal42@gmail.com";
 
   const handleEmailButtonClick = () => {
@@ -23,14 +27,25 @@ function NavBar() {
     window.open(emailUrl, "_blank");
   };
 
+  const handleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="navbar">
-      <div className="navbar-section1">
+      <div className={`navbar-section1 ${isOpen ? "active" : ""}`}>
         <div className="circles">
           <div className="circle"></div>
           <div className="circle"></div>
         </div>
         <div className="nav-box">
+          <div className="cross-bar">
+            <FontAwesomeIcon
+              icon={faXmark}
+              style={{ fontSize: 20, color: "var(--text-color)" }}
+              onClick={handleMenu}
+            />
+          </div>
           <div className="nav-box_element">
             <h3>Navigate »</h3>
             <li>
@@ -91,6 +106,13 @@ function NavBar() {
           >
             My Resume <FontAwesomeIcon icon={faUser} />
           </a>
+          <div className="hamMenu">
+            <FontAwesomeIcon
+              icon={faBars}
+              style={{ fontSize: 20, color: "var(--text-color)" }}
+              onClick={handleMenu}
+            />
+          </div>
         </div>
         <div className="nav-box2">
           <div className="banner">
