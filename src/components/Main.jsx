@@ -46,7 +46,7 @@ function Main() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/DhakalYukesh"
+              href="https://github.com/DhakalYukesh/ui-design-practice"
             >
               <img src="/images/project3.png" alt="project img" />
             </a>
@@ -61,15 +61,15 @@ function Main() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/DhakalYukesh"
+              href="https://pikabake.vercel.app/"
             >
               <img src="/images/project4.png" alt="project img" />
             </a>
           </div>
           <div className="box-container_details">
-            <h3>Pika Bakes | Ongoing Private Project</h3>
+            <h3>Pika Bakes | Client Project</h3>
             <p>
-              Tech used: HTML, CSS, JS, React Js, Express Js, Node Js, MongoDB{" "}
+              Tech used: HTML, Tailwind, JS, React Js, Next Js, MongoDB{" "}
             </p>
           </div>
         </div>
@@ -84,6 +84,7 @@ function Main() {
                 <li id="yellow">Javascript</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li id="green">Sass</li>
                 <li>Tailwind</li>
                 <li id="blue">React Js</li>
               </ul>
@@ -164,8 +165,7 @@ function Main() {
                 <div className="item_details">
                   <h3>Future Projects</h3>
                   <p>
-                    More projects will be added in the future. Have a cookie for
-                    now :D
+                    More projects will be added in the future. 
                   </p>
                 </div>
               </a>
