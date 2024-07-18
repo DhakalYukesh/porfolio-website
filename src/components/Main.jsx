@@ -1,7 +1,7 @@
 import "../styles/main.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCookieBite } from "@fortawesome/free-solid-svg-icons";
-import { faJs, faReact, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faBlog, faCookieBite } from "@fortawesome/free-solid-svg-icons";
+import { faJs, faReact } from "@fortawesome/free-brands-svg-icons";
 
 function Main() {
   return (
@@ -68,9 +68,7 @@ function Main() {
           </div>
           <div className="box-container_details">
             <h3>Pika Bakes | Client Project</h3>
-            <p>
-              Tech used: HTML, Tailwind, JS, React Js, Next Js, MongoDB{" "}
-            </p>
+            <p>Tech used: HTML, Tailwind, JS, React Js, Next Js, MongoDB </p>
           </div>
         </div>
       </div>
@@ -113,7 +111,7 @@ function Main() {
                 <li>Notion</li>
                 <li>Excalidraw</li>
                 <li id="blue">Git</li>
-                <li id="red">PowerShell</li>
+                <li id="red">Redux Toolkit</li>
               </ul>
             </div>
           </div>
@@ -121,6 +119,18 @@ function Main() {
         <div className="box-container2">
           <h2>More Projects »</h2>
           <div className="moreproject">
+            <div className="moreproject_items">
+              <a href="">
+                <FontAwesomeIcon icon={faBlog} />
+                <div className="item_details">
+                  <h3>Blogger - Blog Application</h3>
+                  <p>
+                    A nextjs project with filter and crud operations to add blog
+                    posts.
+                  </p>
+                </div>
+              </a>
+            </div>
             <div className="moreproject_items">
               <a
                 target="_blank"
@@ -152,21 +162,10 @@ function Main() {
             </div>
             <div className="moreproject_items">
               <a href="">
-                <FontAwesomeIcon icon={faLinkedin} />
-                <div className="item_details">
-                  <h3>Upcoming - LinkedIn Clone</h3>
-                  <p>An upcoming linkedIn clone project.</p>
-                </div>
-              </a>
-            </div>
-            <div className="moreproject_items">
-              <a href="">
                 <FontAwesomeIcon icon={faCookieBite} />
                 <div className="item_details">
                   <h3>Future Projects</h3>
-                  <p>
-                    More projects will be added in the future. 
-                  </p>
+                  <p>More projects will be added in the future.</p>
                 </div>
               </a>
             </div>
