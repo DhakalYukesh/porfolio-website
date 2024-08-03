@@ -23,6 +23,37 @@ function Main() {
             <p>Tech used: Laravel, PHP, HTML, CSS, JS, MySQL, PayPal API </p>
           </div>
         </div>
+
+        <div className="box-container">
+          <div href="#" className="box-container_img">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://shidos.vercel.app/"
+            >
+              <img src="/images/project5.jpg" alt="project img" />
+            </a>
+          </div>
+          <div className="box-container_details">
+            <h3>Shidos Tech | Website</h3>
+            <p>Tech used: HTML, Vanilla CSS, GSAP, Responsive Design</p>
+          </div>
+        </div>
+        <div className="box-container">
+          <div href="#" className="box-container_img">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://pikabake.vercel.app/"
+            >
+              <img src="/images/project4.png" alt="project img" />
+            </a>
+          </div>
+          <div className="box-container_details">
+            <h3>Pika Bakes | Client Project</h3>
+            <p>Tech used: HTML, Tailwind, JS, React Js, Next Js, MongoDB </p>
+          </div>
+        </div>
         <div className="box-container">
           <div href="#" className="box-container_img">
             <a
@@ -39,36 +70,6 @@ function Main() {
               Tech used: HTML, CSS, Javascript, React Js, Node Js, Express Js,
               MongoDB
             </p>
-          </div>
-        </div>
-        <div className="box-container">
-          <div href="#" className="box-container_img">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/DhakalYukesh/ui-design-practice"
-            >
-              <img src="/images/project3.png" alt="project img" />
-            </a>
-          </div>
-          <div className="box-container_details">
-            <h3>UI Designing Projects</h3>
-            <p>Tech used: HTML, Vanilla CSS, Tailwind, Responsive Designs</p>
-          </div>
-        </div>
-        <div className="box-container">
-          <div href="#" className="box-container_img">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://pikabake.vercel.app/"
-            >
-              <img src="/images/project4.png" alt="project img" />
-            </a>
-          </div>
-          <div className="box-container_details">
-            <h3>Pika Bakes | Client Project</h3>
-            <p>Tech used: HTML, Tailwind, JS, React Js, Next Js, MongoDB </p>
           </div>
         </div>
       </div>
@@ -120,7 +121,11 @@ function Main() {
           <h2>More Projects »</h2>
           <div className="moreproject">
             <div className="moreproject_items">
-              <a href="">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/DhakalYukesh/blog-app"
+              >
                 <FontAwesomeIcon icon={faBlog} />
                 <div className="item_details">
                   <h3>Blogger - Blog Application</h3>
